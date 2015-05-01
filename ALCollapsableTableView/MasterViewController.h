@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface MasterViewController : UITableViewController
+{
+    NSMutableIndexSet *expandedSections;
 
+}
 
 @end
 

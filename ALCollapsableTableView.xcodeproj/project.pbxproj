@@ -15,6 +15,7 @@
 		C8C36C1B1AF3A53900AE833D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8C36C1A1AF3A53900AE833D /* Images.xcassets */; };
 		C8C36C1E1AF3A53900AE833D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8C36C1C1AF3A53900AE833D /* LaunchScreen.xib */; };
 		C8C36C2A1AF3A53900AE833D /* ALCollapsableTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C36C291AF3A53900AE833D /* ALCollapsableTableViewTests.m */; };
+		C8C36C351AF3A83900AE833D /* ALCustomColoredAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C36C341AF3A83900AE833D /* ALCustomColoredAccessory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		C8C36C231AF3A53900AE833D /* ALCollapsableTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALCollapsableTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8C36C281AF3A53900AE833D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8C36C291AF3A53900AE833D /* ALCollapsableTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALCollapsableTableViewTests.m; sourceTree = "<group>"; };
+		C8C36C331AF3A83900AE833D /* ALCustomColoredAccessory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALCustomColoredAccessory.h; sourceTree = "<group>"; };
+		C8C36C341AF3A83900AE833D /* ALCustomColoredAccessory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALCustomColoredAccessory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,8 @@
 		C8C36BFE1AF3A53900AE833D = {
 			isa = PBXGroup;
 			children = (
+				C8C36C331AF3A83900AE833D /* ALCustomColoredAccessory.h */,
+				C8C36C341AF3A83900AE833D /* ALCustomColoredAccessory.m */,
 				C8C36C091AF3A53900AE833D /* ALCollapsableTableView */,
 				C8C36C261AF3A53900AE833D /* ALCollapsableTableViewTests */,
 				C8C36C081AF3A53900AE833D /* Products */,
@@ -225,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8C36C101AF3A53900AE833D /* AppDelegate.m in Sources */,
+				C8C36C351AF3A83900AE833D /* ALCustomColoredAccessory.m in Sources */,
 				C8C36C131AF3A53900AE833D /* MasterViewController.m in Sources */,
 				C8C36C0D1AF3A53900AE833D /* main.m in Sources */,
 				C8C36C161AF3A53900AE833D /* DetailViewController.m in Sources */,
